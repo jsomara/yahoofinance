@@ -1,0 +1,36 @@
+yahoofinance.rb requires the following software:
+
+- ruby
+
+
+RubyGem (.gem) installation:
+
+% gem install yahoofinance
+or
+% gem install yahoofinance-<version>.gem
+
+
+Package (tar.gz) installation
+
+Quick Start
+
+% ruby setup.rb
+
+Detailed Installation Process
+
+setup.rb has a 3 step installation process.  These are "config",
+"setup" and "install". You can invoke each step separately with the
+following commands:
+
+$ ruby setup.rb config
+$ ruby setup.rb setup
+# ruby setup.rb install
+
+You can control the installation process by giving detailed options
+for each tasks. For example, --bin-dir=$HOME/bin lets setup.rb
+install commands in $HOME/bin.
+
+See the on-line documentation for more details:
+    http://i.loveruby.net/en/prog/setup.html
+
+
